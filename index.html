@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
+
+
+	<style type=text/css>
+
+			body{font-family: "Raleway", sans-serif;
+				background-color:powderblue;
+				margin-left: 20%;
+				margin-right: 20%;
+
+			}
+
+		 hr {
+				border: 5px dashed #FFFDD0;
+			}
+		h1{
+			font-family: "Waiting for the Sunrise";
+			text-align: center;
+		}
+		.info{
+			background-color: 	#FFFDD0;
+		}
+		.answer{
+			background-color: #FFFDD0;
+		}
+		.like{
+			background-color:#32c704;
+		}
+	</style>
+</head>
+<body>
+    <h1>Travel Registration</h1>
+	<hr />
+    	<fieldset class="info">	
+    		<legend>Information</legend>
+
+    		<label for="fname">First Name: </label>
+    		<input type="text" name="fname"
+    		placeholder="Enter your first name here">
+
+    		<br />
+
+    		<label for="lname">Last Name: </label>
+    		<input type="text" name="lname"
+    		placeholder="Enter your last name here">
+    		<br />
+    		<label for="email">Email: </label>
+    		<input type="email" name="Email"
+    		placeholder="Enter your email here">
+
+    		<br />
+
+    		<label for="uname">Username: </label>
+    		<input type="text" name="Username"
+    		placeholder="Enter your username here">
+
+    		<br />
+
+    		<label for="pword">Password: </label>
+    		<input type="password" name="pword"
+    		placeholder="Enter your password here">
+    	</fieldset>
+
+    	<fieldset class="like">
+    	 <legend>Favorite Food</legend>
+    	 <input type="checkbox">
+    	 <label>Pizza</label>
+    	 <input type="checkbox">
+    	 <label>Chicken</label>
+    </fieldset>
+
+    <fieldset class="answer">
+    	 <legend>Did you enjoy answering?</legend>
+    	 <input type="checkbox">
+   	 <label>Yes</label>
+    	 <input type="checkbox">
+    	 <label>No</label>
+    </fieldset>   
+    <br/>
+          <fieldset>
+    <textarea name="message" row="10" cols="30">
+    	Comment</textarea>
+    	</fieldset>
+    	<br></br>
+    <input type="submit" value="yes">
+    <input type="reset"  value="no">  
+
+</body>
+</html>
